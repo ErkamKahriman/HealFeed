@@ -9,7 +9,7 @@ use pocketmine\command\Command;
 
 class FHMain extends PluginBase implements Listener {
 
-    public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
+    public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args){
         if($sender->hasPermission('server.heal')) {
             if ($cmd->getName() == "heal") {
                 $sender->setHealth(20);
