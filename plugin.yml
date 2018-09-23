@@ -1,5 +1,5 @@
 name: HealFeed
-main: ErkamKahriman\HealFeed\FHMain
+main: ErkamKahriman\HealFeed\HFMain
 api: 4.0.0
 version: 1.1
 author: ErkamKahriman
